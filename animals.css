@@ -120,24 +120,3 @@ height:70%;
 padding-top:15px;
 
 }
-/*======INFOBOX======*/
-#info-box.full{
-    background-color: rgba(255, 255, 255, .8);
-    width:90%;
-display: block;
-margin: auto;
-margin-top: 12px;
-padding: 10px;
-
-}
-#info-box-full img{
-    width: 100%;
-    margin-top: 80px;
-}
-#info-box-full h3{
-    text-align: center;
-    font-family: Helvetica;
-}
-#info-box-full{
-    font-family: Helvetica;
-}
