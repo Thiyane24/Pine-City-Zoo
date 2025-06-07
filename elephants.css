@@ -1,57 +1,25 @@
-/*======MAIN=======*/
-#main-page{
-margin-top: 119px;
-background: url('images/map-blur.png');
-background-repeat: repeat-y;
-}
 
-#content{
-padding-top:1px; 
-padding-bottom:50px;
-}
-
-/*======INFO-BOX=======*/
-
-
-a.info-box{
-text-decoration: none;
-background: rgba(255, 255, 255, .8);
-width: 90%;
-height:90px;
+/*======INFOBOX======*/
+#info-box.full{
+    background-color: rgba(255, 255, 255, .8);
+    width:90%;
 display: block;
 margin: auto;
 margin-top: 12px;
-padding: 1px;
+padding: 10px;
 
 }
-
-.info-box img{
-    height: 70px;
-    margin:10px;
-    float:left;
-
+#info-box-full img{
+    width: 100%;
+    margin-top: 80px;
 }
-
-.info-box h3{
-padding:0;
-margin-bottom: 0;
-width: 90%;
-color: #572000;
+#info-box-full h3{
+    text-align: center;
+    font-family: Helvetica;
 }
-
-.info-box p{
-    margin: 0;
-    padding:0;
-    width: 90%;
-    color:#131313;
+#info-box-full{
+    font-family: Helvetica;
 }
-
-.info-box img.right{
-float:right;
-margin-top:25px;
-height: 40px;
-}
-
 /*========BOTTOM-TABS========*/
 #nav-bottom{
     position:fixed;
@@ -60,7 +28,7 @@ height: 40px;
     z-index: 500;
     background-color: forestgreen;
     width: 100%;
-    height: 40px;
+    height: 20px;
 }
 
 #nav-bottom a {
@@ -82,7 +50,7 @@ height: 40px;
     left:0px;
     z-index:500;
     width: 100%;
-    height:40px;
+    height:35px;
     background-color: darkgreen;
 }
 #nav-top a{
@@ -119,4 +87,7 @@ margin: auto;
 height:70%;
 padding-top:15px;
 
+}
+body{
+    /* background-image: url(images/map-blur.png); */
 }
